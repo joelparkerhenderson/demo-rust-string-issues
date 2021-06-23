@@ -78,7 +78,7 @@ cargo run
 Output:
 
 ```sh
-Demo of noël with precomposed characters
+Demo of umlaut with noël with precomposed characters
 
 String: noël
 String length: 5
@@ -88,8 +88,10 @@ Characters reverse: lëon
 Graphemes vector: ["n", "o", "ë", "l"]
 Graphemes count: 4
 Graphemes reverse: lëon
+Lowercase: noël
+Uppercase: NOËL
 
-Demo of noël with decomposed characters
+Demo of umlaut with noël with decomposed characters
 
 String: noël
 String length: 6
@@ -99,8 +101,10 @@ Characters reverse: l̈eon
 Graphemes vector: ["n", "o", "e\u{308}", "l"]
 Graphemes count: 4
 Graphemes reverse: lëon
+Lowercase: noël
+Uppercase: NOËL
 
-Demo of mañana with precomposed characters
+Demo of virguilla with mañana with precomposed characters
 
 String: mañana
 String length: 7
@@ -110,8 +114,10 @@ Characters reverse: anañam
 Graphemes vector: ["m", "a", "ñ", "a", "n", "a"]
 Graphemes count: 6
 Graphemes reverse: anañam
+Lowercase: mañana
+Uppercase: MAÑANA
 
-Demo of mañana with decomposed characters
+Demo of virguilla with mañana with decomposed characters
 
 String: mañana
 String length: 8
@@ -121,8 +127,10 @@ Characters reverse: anãnam
 Graphemes vector: ["m", "a", "n\u{303}", "a", "n", "a"]
 Graphemes count: 6
 Graphemes reverse: anañam
+Lowercase: mañana
+Uppercase: MAÑANA
 
-Demo of cats with precomposed characters
+Demo of emoticons with 😸😾
 
 String: 😸😾
 String length: 8
@@ -132,6 +140,21 @@ Characters reverse: 😾😸
 Graphemes vector: ["😸", "😾"]
 Graphemes count: 2
 Graphemes reverse: 😾😸
+Lowercase: 😸😾
+Uppercase: 😸😾
+
+Demo of ligature with baﬄe
+
+String: baﬄe
+String length: 6
+Characters debug: Chars(['b', 'a', 'ﬄ', 'e'])
+Characters count: 4
+Characters reverse: eﬄab
+Graphemes vector: ["b", "a", "ﬄ", "e"]
+Graphemes count: 4
+Graphemes reverse: eﬄab
+Lowercase: baﬄe
+Uppercase: BAFFLE
 ```
 
 
