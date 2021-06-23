@@ -4,7 +4,7 @@
 /// Feedback welcome.
 ///
 /// This repo is based on the artice about string handling here:
-/// See https://mortoray.com/2013/11/27/the-string-type-is-broken/
+/// https://mortoray.com/2013/11/27/the-string-type-is-broken/
 ///
 ///
 /// This code is tested on Rust 1.5.3:
