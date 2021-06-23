@@ -30,8 +30,8 @@ What is the character length? 4
 What is the reverse? lëon
 What are the first three characters? noë
 Does it print correctly? 😸😾
-What is the reverse? 😾😸
 What is the character length? 2
+What is the reverse? 😾😸
 What is the substring after the first character? 😾
 ```
 

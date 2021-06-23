@@ -29,8 +29,8 @@
 /// What is the reverse? lëon
 /// What are the first three characters? noë
 /// Does it print correctly? 😸😾
-/// What is the reverse? 😾😸
 /// What is the character length? 2
+/// What is the reverse? 😾😸
 /// What is the substring after the first character? 😾
 /// ```
 ///
@@ -73,15 +73,15 @@ fn cats() {
     // Does it print correctly? Yes, most languages are capable of doing this.
     println!("Does it print correctly? {}", s);
 
+    // What is the length? Python unicode correctly reports 2. Those UTF-16
+    // languages tend to report 4: the characters require surrogate pairs.
+    println!("What is the character length? {}", s.chars().count());
+
     // What is the reverse? Python unicode gets the correct reverse of “😾😸”.
     // The UTF-16 languages produce invalid strings. With C# I think I uncovered
     // a defect in ideone. It doesn’t even show the invalid string and instead
     // shows no output at all for the entire program! [ideone defect]
     println!("What is the reverse? {}", s.chars().rev().collect::<String>());
-
-    // What is the length? Python unicode correctly reports 2. Those UTF-16
-    // languages tend to report 4: the characters require surrogate pairs.
-    println!("What is the character length? {}", s.chars().count());
 
     // What is the substring after the first character? Python unicode correctly
     // reports the sad cat “😾”. The UTF-16 languages produce invalid strings
