@@ -1,10 +1,8 @@
-# Demonstration of Rust string issues
+# Demo of Rust string issues
 
-Demonstration of Rust string issues,
-such as UTF-8 encoding, accents, etc.
+Demo of Rust string issues with Unicode diacritics, emoticons, ligatures, bytes, characters, graphemes, etc.
 
-Feedback welcome.
-
+Constructive feedback welcome.
 
 Articles:
 
@@ -12,15 +10,15 @@ Articles:
 
 * [JavaScript has a Unicode problem - by Mathais Bynens](https://mathiasbynens.be/notes/javascript-unicode)
 
+Thanks:
+
+* [Hacker News](https://news.ycombinator.com/item?id=27599243) and user [ridiculous_fish](https://news.ycombinator.com/user?id=ridiculous_fish).
+
 Crates that can help:
 
 * [unicode_segmentation](https://crates.io/crates/unicode_segmentation)
 
 * [unicode_reverse](https://crates.io/crates/unicode_reverse)
-
-Thanks:
-
-* [Hacker News](https://news.ycombinator.com/item?id=27599243) and user [ridiculous_fish](https://news.ycombinator.com/user?id=ridiculous_fish).
 
 
 ## Issues
