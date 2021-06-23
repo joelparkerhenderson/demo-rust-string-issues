@@ -16,8 +16,8 @@
 //! ## Tracking
 //!
 //! * Package: demo-rust-string-issues
-//! * Version: 1.1.0
-//! * Updated: 2021-06-23T02:35:54Z
+//! * Version: 2.2.0
+//! * Updated: 2021-06-23T20:45:10Z
 //! * License: BSD or GPL or MIT
 //! * Contact: Joel Parker Henderson <joel@joelparkerhenderson.com>
 

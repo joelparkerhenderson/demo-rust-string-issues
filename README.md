@@ -161,7 +161,7 @@ Uppercase: BAFFLE
 ## Tracking
 
 * Package: demo-rust-string-issues
-* Version: 2.0.0
-* Updated: 2021-06-23T19:01:11Z
+* Version: 2.2.0
+* Updated: 2021-06-23T20:45:10Z
 * License: BSD or GPL or MIT
 * Contact: Joel Parker Henderson <joel@joelparkerhenderson.com>
